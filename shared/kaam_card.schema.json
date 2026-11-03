@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sajhakaam.example/schemas/kaam_card.json",
+  "title": "KaamCardDraft",
+  "description": "Response of draft_card (AI or template fallback). Money is integer minor units.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title_ne", "title_en", "summary_ne", "summary_en", "deliverables", "checklist",
+    "deadline_days", "price", "revisions_included", "reference_language",
+    "sample_brief_ne", "sample_brief_en", "questions", "needs_clarification", "warnings"
+  ],
+  "properties": {
+    "title_ne": { "type": "string" },
+    "title_en": { "type": "string" },
+    "summary_ne": { "type": "string" },
+    "summary_en": { "type": "string" },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text_ne", "text_en"],
+        "properties": { "id": { "type": "string" }, "text_ne": { "type": "string" }, "text_en": { "type": "string" } }
+      }
+    },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "deliverable_id", "text_ne", "text_en", "testable"],
+        "properties": {
+          "id": { "type": "string" },
+          "deliverable_id": { "type": "string" },
+          "text_ne": { "type": "string" },
+          "text_en": { "type": "string" },
+          "testable": { "type": "boolean" }
+        }
+      }
+    },
+    "deadline_days": { "type": "integer", "minimum": 1, "maximum": 60 },
+    "price": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount_minor", "currency", "is_suggestion"],
+      "properties": {
+        "amount_minor": { "type": "integer", "minimum": 0 },
+        "currency": { "type": "string", "enum": ["USD"] },
+        "is_suggestion": { "type": "boolean" }
+      }
+    },
+    "revisions_included": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "reference_language": { "type": "string", "enum": ["ne", "en"] },
+    "sample_brief_ne": { "type": "string" },
+    "sample_brief_en": { "type": "string" },
+    "questions": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ne", "en"],
+        "properties": { "ne": { "type": "string" }, "en": { "type": "string" } }
+      }
+    },
+    "needs_clarification": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question_ne", "question_en"],
+        "properties": { "question_ne": { "type": "string" }, "question_en": { "type": "string" } }
+      }
+    },
+    "warnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

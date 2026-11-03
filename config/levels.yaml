@@ -1,0 +1,29 @@
+# Kaam Path levels, counted from client-confirmed jobs only.
+# Learner and Trusted caps come from the team research brief.
+# First Kaam and Pro thresholds and caps are ASSUMPTIONS.
+version: 1
+levels:
+  - id: learner
+    en: Learner
+    ne: सिकारु
+    min_confirmed_jobs: 0
+    min_on_time_pct: 0
+    price_cap_minor: 5000        # $50
+  - id: first_kaam
+    en: First Kaam
+    ne: पहिलो काम
+    min_confirmed_jobs: 1
+    min_on_time_pct: 0
+    price_cap_minor: 10000       # $100 (assumption)
+  - id: trusted
+    en: Trusted
+    ne: भरपर्दो
+    min_confirmed_jobs: 5
+    min_on_time_pct: 90
+    price_cap_minor: 30000       # $300
+  - id: pro
+    en: Pro
+    ne: प्रो
+    min_confirmed_jobs: 15
+    min_on_time_pct: 90
+    price_cap_minor: 100000      # $1,000 (assumption)

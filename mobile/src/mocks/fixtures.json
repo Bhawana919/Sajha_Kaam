@@ -1,0 +1,511 @@
+{
+  "generated_at": "2026-11-02T12:33:17.117940+00:00",
+  "skills": [
+    {
+      "id": "graphic_design",
+      "en": "Graphic design",
+      "ne": "ग्राफिक डिजाइन"
+    },
+    {
+      "id": "social_media_posts",
+      "en": "Social media posts",
+      "ne": "सोसल मिडिया पोस्ट"
+    },
+    {
+      "id": "video_editing",
+      "en": "Video editing",
+      "ne": "भिडियो सम्पादन"
+    },
+    {
+      "id": "data_entry",
+      "en": "Data entry",
+      "ne": "डाटा इन्ट्री"
+    },
+    {
+      "id": "translation",
+      "en": "Translation",
+      "ne": "अनुवाद"
+    },
+    {
+      "id": "customer_support",
+      "en": "Customer support",
+      "ne": "ग्राहक सहयोग"
+    },
+    {
+      "id": "content_writing",
+      "en": "Content writing",
+      "ne": "सामग्री लेखन"
+    }
+  ],
+  "board": {
+    "items": [
+      {
+        "id": "card-dashain-posts",
+        "title_ne": "५ वटा दसैं सोसल मिडिया पोस्ट",
+        "title_en": "5 Dashain social media posts",
+        "skill": "social_media_posts",
+        "price": {
+          "amount_minor": 4000,
+          "currency": "USD",
+          "is_suggestion": false
+        },
+        "deadline_days": 5,
+        "revisions_included": 1,
+        "pahilo_kaam": true,
+        "client_country": "Australia",
+        "applicant_count": 12,
+        "max_applicants": 15,
+        "window_closes_at": "2026-11-02T14:33:17.064190Z",
+        "state": "open"
+      },
+      {
+        "id": "card-london-menu",
+        "title_ne": "२ पेज अनुवाद",
+        "title_en": "Translate 2 pages",
+        "skill": "translation",
+        "price": {
+          "amount_minor": 1500,
+          "currency": "USD",
+          "is_suggestion": false
+        },
+        "deadline_days": 3,
+        "revisions_included": 1,
+        "pahilo_kaam": true,
+        "client_country": "United Kingdom",
+        "applicant_count": 0,
+        "max_applicants": 15,
+        "window_closes_at": "2026-11-03T18:33:17.069526Z",
+        "state": "open"
+      },
+      {
+        "id": "card-toronto-reels",
+        "title_ne": "३ वटा छोटो भिडियो सम्पादन",
+        "title_en": "3 short video edits",
+        "skill": "video_editing",
+        "price": {
+          "amount_minor": 7500,
+          "currency": "USD",
+          "is_suggestion": false
+        },
+        "deadline_days": 4,
+        "revisions_included": 1,
+        "pahilo_kaam": false,
+        "client_country": "Canada",
+        "applicant_count": 0,
+        "max_applicants": 15,
+        "window_closes_at": "2026-11-04T04:33:17.070769Z",
+        "state": "open"
+      }
+    ],
+    "next_cursor": null
+  },
+  "cards": {
+    "card-dashain-posts": {
+      "id": "card-dashain-posts",
+      "title_ne": "५ वटा दसैं सोसल मिडिया पोस्ट",
+      "title_en": "5 Dashain social media posts",
+      "skill": "social_media_posts",
+      "price": {
+        "amount_minor": 4000,
+        "currency": "USD",
+        "is_suggestion": false
+      },
+      "deadline_days": 5,
+      "revisions_included": 1,
+      "pahilo_kaam": true,
+      "client_country": "Australia",
+      "applicant_count": 12,
+      "max_applicants": 15,
+      "window_closes_at": "2026-11-02T14:33:17.064190Z",
+      "state": "open",
+      "summary_ne": "५ वटा दसैं सोसल मिडिया पोस्ट, ५ दिनमा बुझाउने। तोकिएको मूल्य, १ पटक सुधार समावेश।",
+      "summary_en": "5 Dashain social media posts, delivered in 5 days. Fixed price, 1 revision included.",
+      "reference_language": "ne",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text_ne": "५ वटा तयार पोस्ट डिजाइन, PNG मा",
+          "text_en": "5 finished post designs as PNG"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c1",
+          "deliverable_id": "d1",
+          "text_ne": "५ वटा PNG फाइल, हरेक १०८०×१०८० px",
+          "text_en": "5 PNG files, each 1080×1080 px",
+          "testable": true
+        },
+        {
+          "id": "c2",
+          "deliverable_id": "d1",
+          "text_ne": "हरेक पोस्टमा पसलको लोगो छ",
+          "text_en": "Shop logo appears on every post",
+          "testable": true
+        },
+        {
+          "id": "c3",
+          "deliverable_id": "d1",
+          "text_ne": "लेख नेपाली र अंग्रेजी दुवैमा छ",
+          "text_en": "Text is in both Nepali and English",
+          "testable": true
+        },
+        {
+          "id": "c4",
+          "deliverable_id": "d1",
+          "text_ne": "हरेक पोस्टमा दसैंको शुभकामना छ",
+          "text_en": "Each post includes a Dashain greeting",
+          "testable": true
+        }
+      ],
+      "sample_brief_ne": "पहिले बनाएको एउटा पोस्ट देखाउनुहोस्, वा एक लाइन नेपाली लेखसहित १०८०×१०८० को छिटो शुभकामना बनाउनुहोस् (बढीमा १० मिनेट)। यो पैसा पाउने पोस्टमध्ये एक होइन।",
+      "sample_brief_en": "Share one post you designed before, or make a quick 1080×1080 greeting with one line of Nepali text (10 minutes max). This is not one of the paid posts.",
+      "questions": [
+        {
+          "ne": "तपाईं कुन डिजाइन एप प्रयोग गर्नुहुन्छ?",
+          "en": "Which design app do you use?"
+        },
+        {
+          "ne": "एउटै पोस्टमा नेपाली र अंग्रेजी लेख कसरी मिलाउनुहुन्छ?",
+          "en": "How would you fit Nepali and English text on one post?"
+        }
+      ],
+      "reviewed_by_sajha": true
+    },
+    "card-london-menu": {
+      "id": "card-london-menu",
+      "title_ne": "२ पेज अनुवाद",
+      "title_en": "Translate 2 pages",
+      "skill": "translation",
+      "price": {
+        "amount_minor": 1500,
+        "currency": "USD",
+        "is_suggestion": false
+      },
+      "deadline_days": 3,
+      "revisions_included": 1,
+      "pahilo_kaam": true,
+      "client_country": "United Kingdom",
+      "applicant_count": 0,
+      "max_applicants": 15,
+      "window_closes_at": "2026-11-03T18:33:17.069526Z",
+      "state": "open",
+      "summary_ne": "२ पेज अनुवाद, ३ दिनमा बुझाउने। तोकिएको मूल्य, १ पटक सुधार समावेश।",
+      "summary_en": "Translate 2 pages, delivered in 3 days. Fixed price, 1 revision included.",
+      "reference_language": "en",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text_ne": "उही ढाँचामा २ पेज अनुवाद",
+          "text_en": "2 translated pages in the same layout"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c1",
+          "deliverable_id": "d1",
+          "text_ne": "मूलको हरेक लाइन अनुवाद भएको छ",
+          "text_en": "Every line of the original is translated",
+          "testable": true
+        },
+        {
+          "id": "c2",
+          "deliverable_id": "d1",
+          "text_ne": "नाम र अंक नबदलिएका छन्",
+          "text_en": "Names and numbers are unchanged",
+          "testable": true
+        },
+        {
+          "id": "c3",
+          "deliverable_id": "d1",
+          "text_ne": "सम्पादन गर्न मिल्ने .docx फाइलमा बुझाइएको",
+          "text_en": "Delivered as an editable .docx file",
+          "testable": true
+        }
+      ],
+      "sample_brief_ne": "कार्डको सारांशका यी ३ वाक्य अनुवाद गर्नुहोस् (बढीमा १० मिनेट)।",
+      "sample_brief_en": "Translate these 3 sentences from the card summary (10 minutes max).",
+      "questions": [
+        {
+          "ne": "तपाईं कुन भाषाबाट कुन भाषामा अनुवाद गर्नुहुन्छ?",
+          "en": "Which language pairs do you translate?"
+        },
+        {
+          "ne": "नाम र अंक कसरी जाँच्नुहुन्छ?",
+          "en": "How do you check names and numbers?"
+        }
+      ],
+      "reviewed_by_sajha": true
+    },
+    "card-toronto-reels": {
+      "id": "card-toronto-reels",
+      "title_ne": "३ वटा छोटो भिडियो सम्पादन",
+      "title_en": "3 short video edits",
+      "skill": "video_editing",
+      "price": {
+        "amount_minor": 7500,
+        "currency": "USD",
+        "is_suggestion": false
+      },
+      "deadline_days": 4,
+      "revisions_included": 1,
+      "pahilo_kaam": false,
+      "client_country": "Canada",
+      "applicant_count": 0,
+      "max_applicants": 15,
+      "window_closes_at": "2026-11-04T04:33:17.070769Z",
+      "state": "open",
+      "summary_ne": "३ वटा छोटो भिडियो सम्पादन, ४ दिनमा बुझाउने। तोकिएको मूल्य, १ पटक सुधार समावेश।",
+      "summary_en": "3 short video edits, delivered in 4 days. Fixed price, 1 revision included.",
+      "reference_language": "en",
+      "deliverables": [
+        {
+          "id": "d1",
+          "text_ne": "३ वटा सम्पादित भिडियो, MP4 मा",
+          "text_en": "3 edited videos as MP4"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c1",
+          "deliverable_id": "d1",
+          "text_ne": "हरेक भिडियो १५ देखि ३० सेकेन्डको छ",
+          "text_en": "Each video is 15 to 30 seconds long",
+          "testable": true
+        },
+        {
+          "id": "c2",
+          "deliverable_id": "d1",
+          "text_ne": "ठाडो ९:१६, १०८०×१९२० मा",
+          "text_en": "Vertical 9:16 at 1080×1920",
+          "testable": true
+        },
+        {
+          "id": "c3",
+          "deliverable_id": "d1",
+          "text_ne": "नेपाली र अंग्रेजी सबटाइटल छ",
+          "text_en": "Subtitles in Nepali and English",
+          "testable": true
+        },
+        {
+          "id": "c4",
+          "deliverable_id": "d1",
+          "text_ne": "प्रतिलिपि अधिकार मुक्त संगीत मात्र",
+          "text_en": "Only licence-free music is used",
+          "testable": true
+        }
+      ],
+      "sample_brief_ne": "पहिले सम्पादन गरेको एउटा छोटो भिडियो देखाउनुहोस्, वा कुनै १० सेकेन्डको क्लिपमा एउटा क्याप्सन राख्नुहोस् (बढीमा १० मिनेट)।",
+      "sample_brief_en": "Share one short video you edited before, or cut any 10-second clip with one caption (10 minutes max).",
+      "questions": [
+        {
+          "ne": "तपाईं कुन सम्पादन एप प्रयोग गर्नुहुन्छ?",
+          "en": "Which editing app do you use?"
+        },
+        {
+          "ne": "नेपाली सबटाइटल कसरी राख्नुहुन्छ?",
+          "en": "How would you add Nepali subtitles?"
+        }
+      ],
+      "reviewed_by_sajha": true
+    }
+  },
+  "drafts": {
+    "५ वटा दसैं पोस्ट चाहियो": {
+      "source": "template",
+      "card": {
+        "title_ne": "५ वटा दसैं सोसल मिडिया पोस्ट",
+        "title_en": "5 Dashain social media posts",
+        "summary_ne": "५ वटा दसैं सोसल मिडिया पोस्ट, ५ दिनमा बुझाउने। तोकिएको मूल्य, १ पटक सुधार समावेश।",
+        "summary_en": "5 Dashain social media posts, delivered in 5 days. Fixed price, 1 revision included.",
+        "deliverables": [
+          {
+            "id": "d1",
+            "text_ne": "५ वटा तयार पोस्ट डिजाइन, PNG मा",
+            "text_en": "5 finished post designs as PNG"
+          }
+        ],
+        "checklist": [
+          {
+            "id": "c1",
+            "deliverable_id": "d1",
+            "text_ne": "५ वटा PNG फाइल, हरेक १०८०×१०८० px",
+            "text_en": "5 PNG files, each 1080×1080 px",
+            "testable": true
+          },
+          {
+            "id": "c2",
+            "deliverable_id": "d1",
+            "text_ne": "हरेक पोस्टमा पसलको लोगो छ",
+            "text_en": "Shop logo appears on every post",
+            "testable": true
+          },
+          {
+            "id": "c3",
+            "deliverable_id": "d1",
+            "text_ne": "लेख नेपाली र अंग्रेजी दुवैमा छ",
+            "text_en": "Text is in both Nepali and English",
+            "testable": true
+          },
+          {
+            "id": "c4",
+            "deliverable_id": "d1",
+            "text_ne": "हरेक पोस्टमा दसैंको शुभकामना छ",
+            "text_en": "Each post includes a Dashain greeting",
+            "testable": true
+          }
+        ],
+        "deadline_days": 5,
+        "price": {
+          "amount_minor": 4000,
+          "currency": "USD",
+          "is_suggestion": true
+        },
+        "revisions_included": 1,
+        "reference_language": "ne",
+        "sample_brief_ne": "पहिले बनाएको एउटा पोस्ट देखाउनुहोस्, वा एक लाइन नेपाली लेखसहित १०८०×१०८० को छिटो शुभकामना बनाउनुहोस् (बढीमा १० मिनेट)। यो पैसा पाउने पोस्टमध्ये एक होइन।",
+        "sample_brief_en": "Share one post you designed before, or make a quick 1080×1080 greeting with one line of Nepali text (10 minutes max). This is not one of the paid posts.",
+        "questions": [
+          {
+            "ne": "तपाईं कुन डिजाइन एप प्रयोग गर्नुहुन्छ?",
+            "en": "Which design app do you use?"
+          },
+          {
+            "ne": "एउटै पोस्टमा नेपाली र अंग्रेजी लेख कसरी मिलाउनुहुन्छ?",
+            "en": "How would you fit Nepali and English text on one post?"
+          }
+        ],
+        "needs_clarification": [
+          {
+            "question_ne": "कहिलेसम्म चाहिन्छ? ५ दिन सुझाइएको छ।",
+            "question_en": "When do you need it? We suggested 5 days."
+          },
+          {
+            "question_ne": "तपाईं आफ्नो लोगो फाइल पठाउनुहुन्छ?",
+            "question_en": "Will you send your logo file?"
+          },
+          {
+            "question_ne": "१०८०×१०८० (फेसबुक/इन्स्टाग्राम वर्ग) साइज ठीक हो?",
+            "question_en": "Is 1080×1080 (Facebook/Instagram square) the right size?"
+          },
+          {
+            "question_ne": "लेख नेपाली, अंग्रेजी वा दुवैमा हुनुपर्छ?",
+            "question_en": "Should the text be in Nepali, English or both?"
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "I need 3 reels for my momo truck, $75, 4 days": {
+      "source": "template",
+      "card": {
+        "title_ne": "३ वटा छोटो भिडियो सम्पादन",
+        "title_en": "3 short video edits",
+        "summary_ne": "३ वटा छोटो भिडियो सम्पादन, ४ दिनमा बुझाउने। तोकिएको मूल्य, १ पटक सुधार समावेश।",
+        "summary_en": "3 short video edits, delivered in 4 days. Fixed price, 1 revision included.",
+        "deliverables": [
+          {
+            "id": "d1",
+            "text_ne": "३ वटा सम्पादित भिडियो, MP4 मा",
+            "text_en": "3 edited videos as MP4"
+          }
+        ],
+        "checklist": [
+          {
+            "id": "c1",
+            "deliverable_id": "d1",
+            "text_ne": "हरेक भिडियो १५ देखि ३० सेकेन्डको छ",
+            "text_en": "Each video is 15 to 30 seconds long",
+            "testable": true
+          },
+          {
+            "id": "c2",
+            "deliverable_id": "d1",
+            "text_ne": "ठाडो ९:१६, १०८०×१९२० मा",
+            "text_en": "Vertical 9:16 at 1080×1920",
+            "testable": true
+          },
+          {
+            "id": "c3",
+            "deliverable_id": "d1",
+            "text_ne": "नेपाली र अंग्रेजी सबटाइटल छ",
+            "text_en": "Subtitles in Nepali and English",
+            "testable": true
+          },
+          {
+            "id": "c4",
+            "deliverable_id": "d1",
+            "text_ne": "प्रतिलिपि अधिकार मुक्त संगीत मात्र",
+            "text_en": "Only licence-free music is used",
+            "testable": true
+          }
+        ],
+        "deadline_days": 4,
+        "price": {
+          "amount_minor": 7500,
+          "currency": "USD",
+          "is_suggestion": false
+        },
+        "revisions_included": 1,
+        "reference_language": "en",
+        "sample_brief_ne": "पहिले सम्पादन गरेको एउटा छोटो भिडियो देखाउनुहोस्, वा कुनै १० सेकेन्डको क्लिपमा एउटा क्याप्सन राख्नुहोस् (बढीमा १० मिनेट)।",
+        "sample_brief_en": "Share one short video you edited before, or cut any 10-second clip with one caption (10 minutes max).",
+        "questions": [
+          {
+            "ne": "तपाईं कुन सम्पादन एप प्रयोग गर्नुहुन्छ?",
+            "en": "Which editing app do you use?"
+          },
+          {
+            "ne": "नेपाली सबटाइटल कसरी राख्नुहुन्छ?",
+            "en": "How would you add Nepali subtitles?"
+          }
+        ],
+        "needs_clarification": [
+          {
+            "question_ne": "हरेक भिडियो कति लामो हुनुपर्छ?",
+            "question_en": "How long should each video be?"
+          },
+          {
+            "question_ne": "काम सुरु हुनुअघि कच्चा क्लिप पठाउनुहुन्छ?",
+            "question_en": "Will you send the raw clips before work starts?"
+          }
+        ],
+        "warnings": []
+      }
+    }
+  },
+  "proof_sample": {
+    "credential": {
+      "@context": [
+        "https://www.w3.org/ns/credentials/v2"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {
+        "displayName": "अञ्जली (sample)",
+        "summary": {
+          "en": "5 posts",
+          "ne": "५ वटा पोस्ट"
+        },
+        "onTime": true
+      },
+      "issuer": {
+        "id": "urn:sajha-kaam:issuer",
+        "name": "Sajha Kaam (demo)"
+      },
+      "sample": {
+        "title": "verification sample"
+      }
+    },
+    "signature_b64": "E1RyHuY4A68JtWhEc9XCaejFmWZ2q1a1rMM2Jt9NVwRr3h2N6rNIdXQiVQrBWP9OhJ2lCjId7MRKM4aXjNF9BA==",
+    "key_id": "sk-4f980717089ce9d3",
+    "keys": [
+      {
+        "key_id": "sk-4f980717089ce9d3",
+        "alg": "Ed25519",
+        "public_key_b64": "f80MYFA1uK+rdu8zPwWaP9XaKmlN9/s9+z6trydjlbY="
+      }
+    ]
+  }
+}

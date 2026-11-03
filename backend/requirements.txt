@@ -1,0 +1,13 @@
+# Sajha Kaam backend: what the API needs to run (also used by the Dockerfile).
+# Exact versions that pass the full test suite on Python 3.12.
+#   pip install -r requirements.txt
+fastapi==0.162.0            # web API
+uvicorn[standard]==0.54.0   # server
+sqlmodel==0.0.48            # database (SQLite)
+pydantic==2.14.2            # data validation
+pyyaml==6.0.3               # config/*.yaml
+pynacl==1.6.2               # Ed25519 signatures for the Work Passport
+pillow==13.0.0              # strips photo metadata (EXIF) in Leak Guard
+bcrypt==5.0.0               # password hashing
+pyjwt==2.15.1               # sign-in tokens
+anthropic==2.3.0            # optional AI drafting (off unless LLM_PROVIDER=anthropic)

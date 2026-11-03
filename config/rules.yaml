@@ -1,0 +1,31 @@
+# Card rule checks run on "Save & post" (deterministic, no AI).
+# ALL NUMBERS ARE ASSUMPTIONS. Validate with 3 real freelancers before launch.
+version: 1
+board:
+  window_hours: 48
+  max_applicants: 15
+  extend_once_hours: 48
+  max_active_applications_per_worker: 5
+  pahilo_kaam_max_confirmed_jobs: 2
+application:
+  answer_max_chars: 280
+  max_images: 3
+  links_allowed: false
+card:
+  min_deadline_days: 1
+  max_deadline_days: 60
+  max_revisions: 3
+  default_revisions: 1
+  micro_sample_max_minutes: 10
+# Words that make a checklist item untestable (matched case-insensitively, both scripts).
+untestable_words:
+  en: [good, nice, professional, beautiful, attractive, high quality, high-quality, modern, catchy, amazing, perfect, best]
+  ne: [राम्रो, सुन्दर, आकर्षक, उत्कृष्ट, प्रोफेसनल, व्यावसायिक, गज्जब, सबैभन्दा राम्रो]
+# A card may never ask applicants for these.
+forbidden_asks:
+  en: [photo, selfie, picture of you, caste, religion, citizenship, citizenship number, passport number, national id, age, date of birth, gender, phone number, whatsapp number, marital status]
+  ne: [फोटो, तस्बिर, जात, थर, धर्म, नागरिकता, राहदानी, उमेर, जन्म मिति, लिङ्ग, फोन नम्बर, मोबाइल नम्बर, वैवाहिक]
+# Work Sajha Kaam does not allow.
+blocked_work:
+  en: [fake review, fake reviews, write reviews for, exam, assignment for me, do my homework, adult, nsfw, crypto investment, loan, lottery, followers for sale, buy followers]
+  ne: [नक्कली समीक्षा, परीक्षा, होमवर्क, वयस्क, लटरी, ऋण]

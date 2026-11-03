@@ -1,0 +1,13 @@
+# Price floors and typical days per task type, used for rule checks and AI suggestions.
+# ASSUMPTIONS: beginner rates for an overseas small-business client. Validate before launch.
+version: 1
+currency: USD
+bands:
+  social_post:   { skill: social_media_posts, unit_en: post,  unit_ne: पोस्ट,  floor_per_unit_minor: 500,  typical_per_unit_minor: 800,  min_days: 2 }
+  logo:          { skill: graphic_design,     unit_en: logo,  unit_ne: लोगो,   floor_per_unit_minor: 2500, typical_per_unit_minor: 4000, min_days: 3 }
+  graphic:       { skill: graphic_design,     unit_en: design, unit_ne: डिजाइन, floor_per_unit_minor: 500,  typical_per_unit_minor: 900,  min_days: 2 }
+  short_video:   { skill: video_editing,      unit_en: video, unit_ne: भिडियो, floor_per_unit_minor: 1500, typical_per_unit_minor: 2500, min_days: 2 }
+  data_entry:    { skill: data_entry,         unit_en: 100 rows, unit_ne: १०० पङ्क्ति, floor_per_unit_minor: 300, typical_per_unit_minor: 500, min_days: 1 }
+  translation:   { skill: translation,        unit_en: page,  unit_ne: पेज,    floor_per_unit_minor: 400,  typical_per_unit_minor: 700,  min_days: 1 }
+  writing:       { skill: content_writing,    unit_en: 500 words, unit_ne: ५०० शब्द, floor_per_unit_minor: 800, typical_per_unit_minor: 1200, min_days: 1 }
+  support_hour:  { skill: customer_support,   unit_en: hour,  unit_ne: घण्टा,  floor_per_unit_minor: 300,  typical_per_unit_minor: 500,  min_days: 1 }

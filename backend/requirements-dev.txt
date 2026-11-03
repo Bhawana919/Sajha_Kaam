@@ -1,0 +1,6 @@
+# Everything to run the backend AND its tests and lint.
+#   pip install -r requirements-dev.txt
+-r requirements.txt
+pytest==9.2.0               # tests
+httpx==0.28.1               # test client
+ruff==0.17.3                # lint

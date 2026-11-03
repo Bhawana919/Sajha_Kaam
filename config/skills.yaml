@@ -1,0 +1,31 @@
+# Bilingual skill list. Search matches en, ne and aliases (incl. Nepali typed in Latin letters).
+version: 1
+skills:
+  - id: graphic_design
+    en: Graphic design
+    ne: ग्राफिक डिजाइन
+    aliases: [design, poster, logo, banner, flyer, डिजाइन, पोस्टर, लोगो, graphic dizain, dijain]
+  - id: social_media_posts
+    en: Social media posts
+    ne: सोसल मिडिया पोस्ट
+    aliases: [facebook post, instagram post, post, पोस्ट, फेसबुक, इन्स्टाग्राम, social media, sosal midiya]
+  - id: video_editing
+    en: Video editing
+    ne: भिडियो सम्पादन
+    aliases: [video, reel, tiktok, youtube, भिडियो, रिल, एडिट, bhidiyo, video edit]
+  - id: data_entry
+    en: Data entry
+    ne: डाटा इन्ट्री
+    aliases: [excel, spreadsheet, typing, एक्सेल, टाइपिङ, data]
+  - id: translation
+    en: Translation
+    ne: अनुवाद
+    aliases: [translate, translator, अनुवादक, anuwad, anubad]
+  - id: customer_support
+    en: Customer support
+    ne: ग्राहक सहयोग
+    aliases: [support, chat support, customer service, ग्राहक सेवा, grahak sahayog]
+  - id: content_writing
+    en: Content writing
+    ne: सामग्री लेखन
+    aliases: [writing, blog, article, caption, लेख, ब्लग, क्याप्सन, lekhan]
